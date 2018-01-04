@@ -28,7 +28,7 @@ setPanel()
 function setTime() {
     var nowTime = new Date()
     var year = nowTime.getFullYear()
-    month = nowTime.getMonth()
+    month = nowTime.getMonth() + 1  //注意这里需要加1
     day = nowTime.getDay()
     hours = nowTime.getHours()
     minutes = nowTime.getMinutes()
